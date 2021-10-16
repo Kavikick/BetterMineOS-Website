@@ -10,7 +10,7 @@ class Root(object):
 
 
 def error_page_default(status, message, traceback, version):
-    return """<div style="text-align:center;">Bad Kitty</div>"""  # """<div style="text-align:center;" ><img src="/files/suspicious.jpeg"><div>"""
+    return """<div style="text-align:center;" ><img src="/files/suspicious.jpeg"><div><div style="text-align:center;">Bad Kitty</div>"""
 
 
 if __name__ == '__main__':
